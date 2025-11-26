@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERBAU GULIVER | Professionelle Immobilienverwaltung</title>
+    
+    <!-- Google Fonts - Using more professional fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <!-- Logo placeholder - replace src with your logo path -->
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="MERBAU GULIVER" class="logo-img">
+                <!-- Fallback text if logo image doesn't load -->
+                <span class="logo-text">MERBAU GULIVER</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Dienstleistungen</a></li>
+                <li><a href="#about" class="nav-link">Über uns</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li><a href="#contact" class="nav-cta">Beratungsgespräch</a></li>
+            </ul>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Replace src with your hero background image -->
+        <div class="hero-background">
+            <img src="images/hero-background.jpg" alt="Moderne Immobilien" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Ihr Partner für professionelle
+                    <span class="highlight">Immobilienverwaltung</span>
+                </h1>
+                <p class="hero-description">
+                    Die vereinte Expertise von MERBAU und GULIVER. Wir bieten massgeschneiderte 
+                    Dienstleistungen entlang des gesamten Lebenszyklus Ihrer Immobilie – 
+                    transparent, effizient und persönlich.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">
+                        Kostenlose Erstberatung
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        Unsere Services entdecken
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Verwaltete Objekte</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="25">0</span>
+                        <span class="stat-label">Jahre Erfahrung</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-label">% Kundenzufriedenheit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unsere Dienstleistungen</h2>
+                <p class="section-subtitle">
+                    Umfassende Lösungen für alle Ihre Immobilienbedürfnisse
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/building.svg" alt="Mietliegenschaften">
+                    </div>
+                    <h3 class="service-title">Mietliegenschaften</h3>
+                    <p class="service-description">
+                        Professionelle Verwaltung Ihrer Mietobjekte mit vollständiger 
+                        administrativer und technischer Betreuung.
+                    </p>
+                    <ul class="service-features">
+                        <li>Mietermanagement & Vermietung</li>
+                        <li>Nebenkostenabrechnungen</li>
+                        <li>Unterhalt & Instandhaltung</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/apartment.svg" alt="Stockwerkeigentum">
+                    </div>
+                    <h3 class="service-title">Stockwerkeigentum</h3>
+                    <p class="service-description">
+                        Spezialisierte Verwaltung von Eigentümergemeinschaften mit 
+                        transparenter Abwicklung aller Prozesse.
+                    </p>
+                    <ul class="service-features">
+                        <li>Eigentümerversammlungen</li>
+                        <li>Erneuerungsfonds</li>
+                        <li>Liegenschaftsbuchhaltung</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/sale.svg" alt="Immobilienverkauf">
+                    </div>
+                    <h3 class="service-title">Immobilienverkauf</h3>
+                    <p class="service-description">
+                        Marktgerechte Bewertung und professionelle Vermarktung 
+                        Ihrer Immobilie für optimale Verkaufsergebnisse.
+                    </p>
+                    <ul class="service-features">
+                        <li>Marktwertanalyse</li>
+                        <li>Professionelles Marketing</li>
+                        <li>Vertragsabwicklung</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/portfolio.svg" alt="Portfolio Management">
+                    </div>
+                    <h3 class="service-title">Portfolio Management</h3>
+                    <p class="service-description">
+                        Strategische Bewirtschaftung und Optimierung Ihres 
+                        gesamten Immobilienportfolios.
+                    </p>
+                    <ul class="service-features">
+                        <li>Performance-Analyse</li>
+                        <li>Investitionsstrategie</li>
+                        <li>Risikomanagement</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/consulting.svg" alt="Beratung">
+                    </div>
+                    <h3 class="service-title">Beratung</h3>
+                    <p class="service-description">
+                        Umfassende Immobilienberatung bei komplexen Fragestellungen 
+                        und strategischen Entscheidungen.
+                    </p>
+                    <ul class="service-features">
+                        <li>Mietrechtsberatung</li>
+                        <li>Sanierungsplanung</li>
+                        <li>Nachhaltigkeitskonzepte</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icons/digital.svg" alt="Digitale Verwaltung">
+                    </div>
+                    <h3 class="service-title">Digitale Verwaltung</h3>
+                    <p class="service-description">
+                        Moderne digitale Lösungen für transparente und effiziente 
+                        Immobilienverwaltung.
+                    </p>
+                    <ul class="service-features">
+                        <li>Online-Portal</li>
+                        <li>Digitale Dokumentation</li>
+                        <li>Automatisierte Prozesse</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Vereinte Kompetenz für Ihren Erfolg</h2>
+                    <p class="about-text">
+                        Aus der Fusion von MERBAU AG und GULIVER entsteht ein starker Partner 
+                        für alle Ihre Immobilienbedürfnisse. Wir vereinen jahrzehntelange 
+                        Erfahrung mit innovativen Ansätzen und persönlicher Betreuung.
+                    </p>
+                    <p class="about-text">
+                        Unser Ziel ist es, den Wert Ihrer Immobilien nachhaltig zu steigern 
+                        und Ihnen als verlässlicher Partner zur Seite zu stehen. Mit Transparenz, 
+                        Kompetenz und Leidenschaft setzen wir uns täglich für Ihren Erfolg ein.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Langjährige Erfahrung</h4>
+                                <p>Über 25 Jahre Expertise im Immobilienmarkt</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Persönliche Betreuung</h4>
+                                <p>Individuelle Lösungen für jeden Kunden</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Digitale Innovation</h4>
+                                <p>Moderne Tools für effiziente Verwaltung</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Nachhaltig & Transparent</h4>
+                                <p>Verantwortungsvolle Bewirtschaftung</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <!-- Replace src with your about section image -->
+                    <img src="images/about-office.jpg" alt="MERBAU GULIVER Office" class="about-img">
+                    <div class="about-img-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Team</h2>
+                <p class="section-subtitle">
+                    Engagierte Experten für Ihre Immobilien
+                </p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-1.jpg" alt="Lilo Stitch" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Lilo Stitch</h3>
+                    <p class="team-role">Geschäftsführerin</p>
+                    <p class="team-bio">
+                        Führt das Unternehmen mit Vision und Leidenschaft für exzellenten Service.
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-2.jpg" alt="Mickey Mouse" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Mickey Mouse</h3>
+                    <p class="team-role">Leiter Bewirtschaftung</p>
+                    <p class="team-bio">
+                        Experte für Mietliegenschaften und Stockwerkeigentum mit 15 Jahren Erfahrung.
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-3.jpg" alt="Donald Duck" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Donald Duck</h3>
+                    <p class="team-role">Portfolio Manager</p>
+                    <p class="team-bio">
+                        Spezialist für strategische Portfolioentwicklung und Investitionsberatung.
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-4.jpg" alt="Minnie Mouse" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Minnie Mouse</h3>
+                    <p class="team-role">Kundenbetreuung</p>
+                    <p class="team-bio">
+                        Ihre erste Ansprechpartnerin für alle Anliegen rund um Ihre Immobilie.
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-5.jpg" alt="Buzz Lightyear" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Buzz Lightyear</h3>
+                    <p class="team-role">Technischer Leiter</p>
+                    <p class="team-bio">
+                        Verantwortlich für Facility Management und technische Betreuung.
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="team-photo">
+                        <!-- Replace src with actual team member photo -->
+                        <img src="images/team/team-6.jpg" alt="Woody Pride" onerror="this.src='images/team/placeholder.jpg'">
+                    </div>
+                    <h3 class="team-name">Woody Pride</h3>
+                    <p class="team-role">Rechtsberater</p>
+                    <p class="team-bio">
+                        Experte für Immobilienrecht und vertragliche Angelegenheiten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Kontaktieren Sie uns</h2>
+                    <p class="contact-text">
+                        Wir freuen uns auf Ihre Kontaktaufnahme und beraten Sie gerne 
+                        unverbindlich zu allen Fragen rund um Ihre Immobilie.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>Bahnhofstrasse 100<br>8001 Zürich</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Telefon</h4>
+                                <p>+41 44 123 45 67</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>E-Mail</h4>
+                                <p>info@merbau-guliver.ch</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <h4>Öffnungszeiten</h4>
+                                <p>Mo-Fr: 8:00 - 17:30<br>Sa: Nach Vereinbarung</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ihre E-Mail" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Betreff wählen</option>
+                                <option value="verwaltung">Immobilienverwaltung</option>
+                                <option value="verkauf">Immobilienverkauf</option>
+                                <option value="beratung">Beratung</option>
+                                <option value="andere">Andere</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Nachricht senden
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">MERBAU GULIVER</h3>
+                    <p class="footer-tagline">
+                        Ihr zuverlässiger Partner für professionelle Immobilienverwaltung in der Schweiz.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Mietliegenschaften</a></li>
+                            <li><a href="#services">Stockwerkeigentum</a></li>
+                            <li><a href="#services">Portfolio Management</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Unternehmen</h4>
+                        <ul>
+                            <li><a href="#about">Über uns</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Rechtliches</h4>
+                        <ul>
+                            <li><a href="#">Impressum</a></li>
+                            <li><a href="#">Datenschutz</a></li>
+                            <li><a href="#">AGB</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MERBAU GULIVER AG. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
